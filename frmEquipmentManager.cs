@@ -21,7 +21,7 @@ namespace Payot_Week06_Week07
 
         private void frmEquipmentManager_Load(object sender, EventArgs e)
         {
-            
+
             equipmentTable = new DataTable();
             equipmentTable.Columns.Add("Asset Tag");
             equipmentTable.Columns.Add("Equipment");
